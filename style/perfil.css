@@ -44,14 +44,14 @@ main{
     gap: 10px;
 }
 
-img{
+ .top_5_container > img{
     width: 20%;
 }
 
 .top_5_container{
     width: 100%;
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 
 .top_5> h2{
