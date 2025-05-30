@@ -1,0 +1,54 @@
+main{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding-top: 10px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.main > h1{
+    color: black;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.botao_index{
+    background-color: #D9D9D9;
+    padding: 5px 20px;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+#content > ul{
+    display: flex;
+    gap: 20px;
+}
+
+#series_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.serie{
+    width: 30%;
+    background-color: #AEAEAE;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.serie > img{
+    width: 100%;
+}
+
+.serie > p{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
