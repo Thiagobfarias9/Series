@@ -12,11 +12,7 @@ body{
         overflow-x: hidden;
 }
 
-a{
-    color: black;
-}
-
-h1, h2, p{
+h1, h2, p, a{
     font-family: 'Jost', sans-serif;
     color: black;
 }
