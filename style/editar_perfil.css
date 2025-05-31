@@ -1,0 +1,83 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.main{
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+
+#editarPerfil{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.img_user{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.img_user > label{
+    text-align: center;
+}
+
+.img_user > img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.infos_user{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    background-color: #D9D9D9;
+}
+
+textarea{
+    resize: none;
+    height: 200px;
+}
+
+.top_5_container{
+    width: 50%;
+    display: flex;
+    gap: 10px;
+}
+
+.top_5_container > img{
+    width: 20%;
+}
+
+button{
+    padding: 10px 50px;
+    font-size: 16px;
+    border: none;
+}
+
+.cancelar{
+    background-color: rgb(182, 66, 66);
+    color: white;
+}

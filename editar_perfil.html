@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" href="style/editar_perfil.css">
+</head>
+<body>
+    <header>
+        <div id="content" class="header">
+            <h1><a href="index.html">Series</a></h1>
+            <form action="" method="get">
+                <div class="search">
+                    <input type="text" name="pesquisa">
+                    <button type="submit"><img src="img/estrutura/search.png" alt=""></button>
+                </div>
+            </form>
+            <a href="perfil.html"><img src="img/users/default/pfp.jpg" alt="" id="pfp"></a>
+        </div>
+    </header>
+    <main>
+        <div id="content" class="main">
+            <form action="" id="editarPerfil">
+                <div class="img_user">
+                    <img src="img/users/default/pfp.jpg" alt="">
+                    <label for="pfp">Mudar foto de perfil</label>
+                    <input type="file" name="pfp" id="pfp" hidden>
+                </div>
+                <div class="infos_user">
+
+                    <div class="input">
+                        <label for="nome">
+                            Nome       
+                        </label>
+                        <input type="text" name="nome">
+                    </div>
+                    <div class="input">
+                        <label for="descricao">
+                            Descrição       
+                        </label>
+                        <textarea name="descricao"></textarea>
+                    </div>
+
+                    <div class="top_5">
+                        <h2> Meu Top 5</h2>
+                            <div class="top_5_container">
+                                <img src="img/series/1/poster.webp" alt="">
+                                <img src="img/series/1/poster.webp" alt="">
+                                <img src="img/series/1/poster.webp" alt="">
+                                <img src="img/series/1/poster.webp" alt="">
+                                <img src="img/estrutura/top_5_default.png" alt="">
+                            </div>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="cancelar">Cancelar</button>
+                        <button>Salvar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
