@@ -96,9 +96,91 @@ header{
 }
 
 .verMais{
+    margin: 10px 0px;
     width: fit-content;
     background-color: #D9D9D9;
     padding: 5px 25px;
     border: none;
     color: black;
+}
+
+.comentarios{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.comentarios > h2{
+    width: 100%;
+}
+
+.comentario{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.comentario > img,  #enviar_comentario > img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+#enviar_comentario{
+    display: flex;
+    align-items: start;
+    width: 100%;
+    gap: 10px;
+}
+
+textarea[name=comentario]{
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    padding: 5px;
+    border: none;
+    min-height: 50px;
+    max-height: 500px;
+    resize: none;
+}
+
+.comentario_input{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+}
+
+.comentario_input > button{
+    width: fit-content;
+    border: none;
+    background-color: #D9D9D9;
+    padding: 5px 10px;
+}
+
+.barra{
+    height: 1px;
+    width: 100%;
+    background-color: #b8aeae;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.button_comment{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+.button_comment > img{
+    width: 25px;
+    height: 25px;
 }
