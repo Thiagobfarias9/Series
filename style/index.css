@@ -5,6 +5,11 @@ main{
     padding-top: 10px;
 }
 
+.botao_index:hover, .verMais:hover{
+    background-color: #a19d9d;
+    cursor: pointer;
+}
+
 .main{
     display: flex;
     align-items: center;
@@ -24,9 +29,12 @@ main{
     border-radius: 5px;
 }
 
-#content > ul{
+ul{
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
+    margin-top: 20px;
 }
 
 #series_container{
